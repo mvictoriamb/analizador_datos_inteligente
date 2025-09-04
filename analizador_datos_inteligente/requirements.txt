@@ -1,0 +1,6 @@
+pandas>=1.5.3
+numpy>=1.25.0
+matplotlib>=3.7.1
+seaborn>=0.12.2
+pandasai>=0.2.9
+openai>=0.31.0
