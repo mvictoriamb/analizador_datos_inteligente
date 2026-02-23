@@ -70,7 +70,7 @@ for columna in columnas_no_numericas:
     conteo = df[columna].value_counts()
     if conteo.iloc[0] > 1:
         plt.figure(figsize=(8,4))
-        sns.countplot(x=columna, data=df, palette='pastel', order=conteo.index)
+        sns.countplot(x=columna, data=df, hue=columna, palette='pastel', order=conteo.index, legend=False)
         plt.title(f"{columna}")
         plt.ylabel("Número de estudiantes")
         #plt.show()
@@ -104,4 +104,5 @@ while True:
         respuesta = sdf.chat(pregunta)
         print("Respuesta: {respuesta}")
     except Exception as error:
+
         print("Error al procesar la pregunta:", error)
