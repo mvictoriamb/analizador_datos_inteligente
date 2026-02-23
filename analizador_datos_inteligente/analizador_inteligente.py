@@ -92,7 +92,7 @@ import pandasai
 from pandasai import SmartDataframe
 from pandasai.llm import OpenAI
 
-llm = OpenAI(api_token="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") #necesito una api key de openai
+llm = OpenAI(api_token="TU_API_KEY") #necesitas una api key de openai
 sdf = SmartDataframe(df, config={"llm": llm})
 
 while True:
@@ -106,3 +106,4 @@ while True:
     except Exception as error:
 
         print("Error al procesar la pregunta:", error)
+
