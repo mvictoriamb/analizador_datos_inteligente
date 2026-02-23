@@ -39,33 +39,37 @@ export OPENAI_API_KEY="sk-proj-tu-key"
 python analizador_inteligente.py
 ```
 
-💬 Ejemplos preguntas IA:
+## 💬 Ejemplos de preguntas IA
+Una vez que ejecutes el script, puedes interactuar con el chat probando consultas como estas:
 
-text
-"¿Qué nota media tienen los colocados?"
-"¿Qué carrera tiene más empleabilidad?"
-"Correlación entre horas estudio y empleo"
-"Gráfico distribución CGPA por género"
+> *"¿Qué nota media tienen los colocados?"* > *"¿Qué carrera tiene más empleabilidad?"* > *"Dime la correlación entre horas de estudio y empleo."* > *"Genera un gráfico de distribución de CGPA por género."*
 
-📂 Estructura
+---
+
+## 📂 Estructura del Proyecto
+
+```text
 📁 analizador_datos_inteligente/
-├── 📄 analizador_basico.ipynb      # Análisis clásico
-├── 🐍 analizador_inteligente.py    # Chat IA OpenAI
-├── 📋 requirements.txt             # pandasai openai
-└── 📊 college_student_placement_dataset.csv
+├── 📄 analizador_basico.ipynb               # Análisis estadístico clásico
+├── 🐍 analizador_inteligente.py             # Script principal con Chat IA (OpenAI)
+├── 📋 requirements.txt                      # Dependencias (pandasai, openai, etc.)
+└── 📊 college_student_placement_dataset.csv # Dataset original
+```
 
 🛠 Stack Técnico
-text
+```text
 📊 pandas>=1.5.3     📈 matplotlib>=3.7.1
 🔢 numpy>=1.25.0     🎨 seaborn>=0.12.2
 🤖 pandasai>=0.2.9   🔑 openai>=0.31.0
+```
 
 📈 Análisis Real
-text
+```text
 ✅ CGPA promedio colocados: 7.8/10
 ✅ Correlación práctica → empleo: +0.65
 ✅ Internships → 85% colocación
 ✅ Coding skills → +42% probabilidad empleo
+```
 
 👩‍💻 María Victoria Maldonado Bao
 Ciberseguridad & IA | UMA Málaga 2028
