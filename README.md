@@ -1,50 +1,66 @@
-# Analizador de Datos sobre Estudiantes Universitarios
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF6B6B&center=true&vCenter=true&width=435&lines=%F0%9F%A4%A6+Analizador+de+Datos+Inteligente;💬+Chat+con+CSV;🤖+PandasAI+%2B+Gemini;📊+Gr%C3%A1ficos+autom%C3%A1ticos;🚀+No+code+necesario" alt="typing svg" />
+</div>
 
-Este proyecto analiza un dataset sobre estudiantes universitarios, generando estadísticas, gráficos y correlaciones automáticamente. Además, cuenta con una versión avanzada que integra **PandasAI**, permitiendo hacer preguntas en lenguaje natural sobre los datos. El análisis se basa en el dataset “College Student Placement Analysis” de Kaggle, creado por Sahil Islam:
-https://www.kaggle.com/datasets/sahilislam007/college-student-placement-factors-dataset
-Este proyecto está liberado bajo la **MIT License**.
+# 🤖 **Analizador de Datos sobre Estudiantes Universitarios**
 
+**Streamlit + PandasAI + Gemini** | **Chat en lenguaje natural** | **Dataset empleabilidad estudiantes**
 
-## 📂 Estructura del proyecto
+[![Streamlit](https://img.shields.io/badge/Streamlit-PandasAI-Gemini-FF6B6B?style=for-the-badge&logo=python&logoColor=white)](https://streamlit.io)
+[![Dataset Kaggle](https://img.shields.io/badge/Kaggle-Student%20Placement-orange?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/sahilislam007/college-student-placement-factors-dataset)
 
-Analizador_Datos/
-├─ data/ # Carpeta para colocar el dataset
-├─ analizador_basico.py # Versión clásica de análisis de datos
-├─ analizador_inteligente.py # Versión con PandasAI
-├─ README.md
-├─ requirements.txt
+## ✨ **Features**
 
+| **Versión Base** | **Versión Inteligente** |
+|------------------|-------------------------|
+| 📊 Estadísticas descriptivas | 💬 **Preguntas en español** |
+| 📈 Histogramas + barras | 🤖 **PandasAI + Gemini** |
+| 🔗 Correlaciones automáticas | 🎨 Gráficos Plotly interactivos |
+| 🗃️ Dataset estudiantes | 🚫 **Sin SQL/Pandas necesario** |
 
-## 🔹 Versiones
+## 🎯 **Dataset**
+**"College Student Placement Analysis"** (Kaggle)  
+**Análisis factores empleabilidad estudiantes universitarios**  
+[Ver dataset →](https://www.kaggle.com/datasets/sahilislam007/college-student-placement-factors-dataset)
 
-1. **Versión base (Kaggle)**  
-   - Analiza el dataset con Python, pandas, matplotlib y seaborn.  
-   - Genera estadísticas descriptivas, histogramas, gráficos de barras y mapas de correlación.  
+## 🚀 **Instalación Rápida**
 
-2. **Versión inteligente**  
-   - Integra `pandasai` y `SmartDataframe` para poder hacer preguntas en lenguaje natural sobre los datos.  
-   - No requiere conocimientos de SQL o pandas para interactuar con el dataset.  
-   - Requiere una API Key de OpenAI.
-
-## ⚙️ Requisitos
-
-- Python 3.10+  
-- Bibliotecas Python: pandas, matplotlib, seaborn, numpy  
-- (Opcional para la versión inteligente) pandasai y OpenAI API Key
-
-
-## 🚀 Cómo usar
-
-# 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/mvictoriamb/analizador_datos_inteligente.git
 cd analizador_datos_inteligente
-
-# 2️⃣ Crear y activar un entorno virtual (opcional pero recomendado)
-python -m venv .venv
-.venv\Scripts\activate    # Windows
-# source .venv/bin/activate # Linux / Mac
-
-# 3️⃣ Actualizar pip e instalar dependencias
-pip install --upgrade pip
 pip install -r requirements.txt
+streamlit run analizador_inteligente.py
+
+🔑 Versión IA (Opcional)
+bash
+# 1. API Key Gemini/OpenAI
+export GOOGLE_API_KEY="tu_api_key"
+
+# 2. Ejecutar
+streamlit run analizador_inteligente.py
+💬 Ejemplo: "¿Qué carrera tiene mayor tasa de empleo?"
+
+📂 Estructura
+text
+📁 analizador_datos_inteligente/
+├── 📁 data/                 # Dataset CSV
+├── 🔹 analizador_basico.py  # Sin IA
+├── 🤖 analizador_inteligente.py # Con PandasAI
+├── 📋 requirements.txt
+└── 📄 README.md
+🛠 Tech Stack
+text
+graph LR
+    CSV[📊 CSV Dataset] --> Pandas[Pandas]
+    Pandas --> Streamlit[Streamlit UI]
+    Streamlit --> Gemini[🔮 Gemini AI]
+    Gemini --> Plotly[📈 Plotly]
+📈 Resultados
+text
+✅ Correlaciones carrera → empleo
+✅ Tasa colocación por nota media  
+✅ Gráficos interactivos automáticos
+✅ Chat IA: "Mejores carreras 2026"
+👩‍💻 María Victoria Maldonado Bao
+Ciberseguridad & IA | UMA 2028
+✉️ mvictoriamb0425@gmail.com
