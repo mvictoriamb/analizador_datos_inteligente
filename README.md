@@ -37,6 +37,7 @@ python analizador_basico.py
 # 3. Inteligente (con API)
 export OPENAI_API_KEY="sk-proj-tu-key"
 python analizador_inteligente.py
+```
 
 💬 Ejemplos preguntas IA:
 
@@ -47,7 +48,6 @@ text
 "Gráfico distribución CGPA por género"
 
 📂 Estructura
-text
 📁 analizador_datos_inteligente/
 ├── 📄 analizador_basico.ipynb      # Análisis clásico
 ├── 🐍 analizador_inteligente.py    # Chat IA OpenAI
