@@ -1,4 +1,3 @@
-```text
 # --- Core Data Processing ---
 pandas>=2.1.0
 numpy>=1.25.0
@@ -26,3 +25,4 @@ faker
 jinja2
 astor
 smart-pandas
+
