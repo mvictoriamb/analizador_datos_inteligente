@@ -1,6 +1,28 @@
-pandas>=1.5.3
+```text
+# --- Core Data Processing ---
+pandas>=2.1.0
 numpy>=1.25.0
+
+# --- Artificial Intelligence & Chat ---
+# Se recomienda v2.0+ para compatibilidad con Python 3.12
+pandasai>=2.3.2
+openai>=1.0.0
+
+# --- Connectors & SQL Engines ---
+sqlalchemy<3
+sqlglot[rs]<26.0.0
+duckdb>=1.0.0
+
+# --- Visualization & UI ---
 matplotlib>=3.7.1
 seaborn>=0.12.2
-pandasai>=0.2.9
-openai>=0.31.0
+pillow>=10.1.0
+
+# --- Utilities & Helpers ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+pyyaml
+faker
+jinja2
+astor
+smart-pandas
