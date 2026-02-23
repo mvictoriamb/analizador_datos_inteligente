@@ -56,23 +56,35 @@ Una vez que ejecutes el script, puedes interactuar con el chat probando consulta
 └── 📊 college_student_placement_dataset.csv # Dataset original
 ```
 
-🛠 Stack Técnico
-```text
-📊 pandas>=1.5.3     📈 matplotlib>=3.7.1
-🔢 numpy>=1.25.0     🎨 seaborn>=0.12.2
-🤖 pandasai>=0.2.9   🔑 openai>=0.31.0
-```
+## 🛠 Stack Técnico
 
-📈 Análisis Real
-```text
-✅ CGPA promedio colocados: 7.8/10
-✅ Correlación práctica → empleo: +0.65
-✅ Internships → 85% colocación
-✅ Coding skills → +42% probabilidad empleo
-```
+| 🧮 Tratamiento de Datos | 🎨 Visualización | 🧠 Inteligencia Artificial |
+| :--- | :--- | :--- |
+| `pandas >= 1.5.3` | `matplotlib >= 3.7.1` | `pandasai >= 0.2.9` |
+| `numpy >= 1.25.0` | `seaborn >= 0.12.2` | `openai >= 0.31.0` |
 
-👩‍💻 María Victoria Maldonado Bao
-Ciberseguridad & IA | UMA Málaga 2028
-✉️ mvictoriamb0425@gmail.com
+---
 
-MIT License | Dataset: Kaggle Sahil Islam
+## 📈 Análisis Real (Insights)
+
+Tras procesar el dataset, la IA nos permite extraer estas conclusiones clave de forma automática:
+
+> 🎯 **Datos Destacados:**
+> * 🎓 **Excelencia Académica:** El CGPA promedio de los estudiantes colocados es de **7.8/10**.
+> * 🔗 **Factor Clave:** La correlación entre la práctica y conseguir empleo es muy positiva (**+0.65**).
+> * 💼 **Experiencia Previa:** Realizar *Internships* (prácticas) dispara la colocación al **85%**.
+> * 💻 **Valor Añadido:** Dominar *Coding skills* aumenta un **42%** la probabilidad real de encontrar empleo.
+
+---
+
+<div align="center">
+  <h3>👩‍💻 María Victoria Maldonado Bao</h3>
+  <p><i>Ciberseguridad & Inteligencia Artificial | UMA Málaga 2028</i></p>
+
+  <a href="mailto:mvictoriamb0425@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://github.com/mvictoriamb"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  
+  <br><br>
+
+  <p>📜 <b>Licencia MIT</b> | 📊 Dataset original cortesía de <b>Sahil Islam (Kaggle)</b></p>
+</div>
